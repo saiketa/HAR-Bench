@@ -1,0 +1,15 @@
+{
+  "seed": 3431,
+  "batch_size": 64,
+  "lr": 0.001,
+  "n_epochs": 200,
+  "n_epochs_cl": 0,
+  "warmup": 0.1,
+  "save_steps": 1000,
+  "total_steps": 200000000,
+  "lambda1": 0.0,
+  "lambda2": 0.0,
+  "ts2vec_temporal_unit": 0,
+  "ts2vec_max_train_length": 0,
+  "ts2vec_alpha": 0.5
+}

@@ -1,0 +1,7 @@
+einops==0.8.2
+numpy==2.4.4
+pandas==3.0.2
+scikit_learn==1.8.0
+scipy==1.17.1
+torch==2.8.0+cu128
+tsai==0.4.1

@@ -1,0 +1,9 @@
+{
+  "seed": 3431,
+  "batch_size": 512,
+  "lr": 0.001,
+  "n_epochs": 200,
+  "warmup": 0.1,
+  "save_steps": 1000,
+  "total_steps": 200000000
+}

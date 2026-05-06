@@ -1,0 +1,7 @@
+{
+  "seed": 42,
+  "batch_size": 512,
+  "n_epochs": 200,
+  "lr": 0.001,
+  "patch_len": 30
+}

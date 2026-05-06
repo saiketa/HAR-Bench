@@ -1,0 +1,14 @@
+{
+  "seed": 3431,
+  "batch_size": 512,
+  "lr": 0.001,
+  "n_epochs": 300,
+  "n_epochs_cl": 150,
+  "warmup": 0.1,
+  "save_steps": 1000,
+  "total_steps": 200000000,
+  "mask_ratio": 0.15,
+  "mask_alpha": 6,
+  "max_gram": 10,
+  "mask_prob": 0.8
+}
