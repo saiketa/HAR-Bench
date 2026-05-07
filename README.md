@@ -1,10 +1,10 @@
-# HAR-Bench
+# BenHAR
 
-This is the code repository for the paper **HAR-Bench: Benchmarking Self-Supervised Learning for Generalizable Sensor-based Activity Recognition**, a large-scale benchmark for evaluating the generalization capability of self-supervised sensor-based human activity recognition (HAR) models.
+This is the code repository for the paper **BenHAR: Benchmarking Self-Supervised Learning for Generalizable Sensor-based Activity Recognition**, a large-scale benchmark for evaluating the generalization capability of self-supervised sensor-based human activity recognition (HAR) models.
 
 <p align="center">
   <a href="assets/framework.png">
-    <img src="assets/framework.png" alt="HAR-Bench framework overview" width="95%">
+    <img src="assets/framework.png" alt="BenHAR framework overview" width="95%">
   </a>
 </p>
 
@@ -63,6 +63,12 @@ The preprocessing scripts for each dataset can be found in the `preprocess/` fol
 All datasets are standardized into non-overlapping 6-second windows with a sampling rate of 20 Hz.
 More details are provided in the paper.
 
+<p align="center">
+  <a href="assets/framework.png">
+    <img src="assets/dataset.png" alt="Dataset statistics." width="95%">
+  </a>
+</p>
+
 ## 🌍 Cross-dataset Benchmark
 
 ### Methods
@@ -77,6 +83,13 @@ More details are provided in the paper.
 | FOCAL | Contrastive | NeurIPS 2023 | [Link](https://neurips.cc/virtual/2023/poster/70617) |
 | SimMTM | Hybrid | NeurIPS 2023 | [Link](https://proceedings.neurips.cc/paper_files/paper/2023/hash/5f9bfdfe3685e4ccdbc0e7fb29cccf2a-Abstract-Conference.html) |
 | CrossHAR | Hybrid | IMWUT 2024 | [Link](https://dl.acm.org/doi/abs/10.1145/3659597) |
+
+<p align="center">
+  <a href="assets/framework.png">
+    <img src="assets/ssl.png" alt="Overview of SSL paradigms." width="95%">
+  </a>
+</p>
+
 ### Evaluation
 
 The 14 datasets are partitioned into five dataset-level folds.
