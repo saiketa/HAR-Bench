@@ -1,11 +1,5 @@
 # BenHAR
 
-<!--
-This is the code repository for the paper [BenHAR: Benchmarking Self-Supervised Learning for Generalizable Sensor-based Activity Recognition](https://arxiv.org/abs/2605.08296), a large-scale benchmark for evaluating the generalization capability of self-supervised sensor-based human activity recognition (HAR) models.
-
-If you find this benchmark useful, please feel free to [cite our paper](#citation).
--->
-
 This is the code repository for the paper **BenHAR: Benchmarking Self-Supervised Learning for Generalizable Sensor-based Activity Recognition**, a large-scale benchmark for evaluating the generalization capability of self-supervised sensor-based human activity recognition (HAR) models.
 
 <p align="center">
@@ -182,15 +176,3 @@ TRAIN_LOCATION=trunk \
 TEST_LOCATION=upper \
 bash scripts/run_cross_location.sh
 ```
-<!--
-## Citation
-
-```
-@article{cai2026benchhar,
-  title={BenchHAR: Benchmarking Self-Supervised Learning for Generalizable Sensor-based Activity Recognition},
-  author={Cai, Yize and Feng, Rui and Yu, Anlan and Guo, Baoshen and Hong, Zhiqing},
-  journal={arXiv preprint arXiv:2605.08296},
-  year={2026}
-}
-```
--->
