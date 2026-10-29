@@ -1,10 +1,5 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Time    : 8/1/2021
-# @Author  : Huatao
-# @Email   : 735820057@qq.com
-# @File    : config.py
-# @Description :
 
 import json
 from typing import NamedTuple
